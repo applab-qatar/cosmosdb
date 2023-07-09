@@ -1,0 +1,20 @@
+{
+  "name"       : "applab/cosmosdb",
+  "description": "PHP wrapper for Azure Cosmos DB (formerly known as azure documentdb) using SQL rest api. Changed few things on this package to the https://github.com/jupitern/cosmosdb",
+  "keywords"   : ["azure cosmosdb", "cosmosdb", "azure documentdb", "documentdb", "cosmosdb rest", "cosmosdb sql api rest"],
+  "homepage"   : "https://github.com/applab/cosmosdb",
+  "license"    : "MIT",
+  "support": {
+    "source": "https://github.com/jupitern/cosmosdb",
+    "issues": "https://github.com/applab/cosmosdb/issues"
+  },
+  "require" :{
+    "php":">=7.0",
+    "guzzlehttp/guzzle": "^7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Applab\\CosmosDb\\": "src/"
+    }
+  }
+}
